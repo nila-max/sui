@@ -1,7 +1,7 @@
 too-many-arguments-threshold = 20
 disallowed-methods = [
     # we use tracing with the log feature instead of the log crate.
-    { path = "log::info", reason = "use tracing::info instead" },
+    { path = "log::info", reason = "use tracing::info instead" 
     { path = "log::debug", reason = "use tracing::debug instead" },
     { path = "log::error", reason = "use tracing::error instead" },
     { path = "log::warn", reason = "use tracing::warn instead" },
